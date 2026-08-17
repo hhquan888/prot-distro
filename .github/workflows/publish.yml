@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch: {}
 
 jobs:
   build:
@@ -36,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/proot-distro
+      url: https://pypi.org/p/prot-distro
     permissions:
       id-token: write
 
