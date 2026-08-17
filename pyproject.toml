@@ -3,7 +3,7 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "prot-diro"
+name = "prot-distro"
 version = "5.6.1"
 description = "PRoot-Distro is a lightweight rootless Linux container management utility built around proot."
 readme = "README.md"
