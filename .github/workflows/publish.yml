@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/prot-diro
+      url: https://pypi.org/p/prot-distro
     permissions:
       id-token: write
 
